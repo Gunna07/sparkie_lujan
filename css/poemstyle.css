@@ -1,0 +1,50 @@
+
+body {
+  background: #000000;
+  background-image: url(/image/book\ shelf.jpg);
+  height: 100%;
+  color: white;
+  text-align: center;
+  margin: 90px 0;
+  font-family: barlow;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.poem {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+  text-align: left;
+}
+
+.gallery-item {
+    position: relative;
+
+    display: inline-block;
+    
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.gallery-item:hover .caption {
+    opacity: 1;
+}
+
+
