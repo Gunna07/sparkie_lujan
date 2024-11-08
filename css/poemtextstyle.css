@@ -699,3 +699,46 @@ background-repeat: no-repeat;
     1px  1px 0 #ffffff;
 }
 
+@media screen and (max-width: 720px) {
+  .Poem1, .notdead, .war, .brokenheart, .whatwasmeant, 
+  .unplannedlongings, .betrayal, .tearsflowing, .screams,
+  .rememberwhen, .rememberingwhen, .bettyboop, .shara,
+  .sistrelylove, .sisters, .wordsoflife {
+    background-size: 100% 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .Poem1, .notdead, .war, .brokenheart, .whatwasmeant,
+  .unplannedlongings, .betrayal, .tearsflowing, .screams,
+  .rememberwhen, .rememberingwhen, .bettyboop, .shara,
+  .sistrelylove, .sisters, .wordsoflife {
+    background-size: 100% 100%;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: scroll;
+    background-position: center center;
+  }
+
+
+  .Poem1 h2, .notdead h2, .war h2, .brokenheart h2,
+  .whatwasmeant h2, .unplannedlongings h2, .betrayal h2,
+  .tearsflowing h2, .screams h2, .rememberwhen h2,
+  .rememberingwhen h2, .bettyboop h2, .shara h2,
+  .sistrelylove h2, .sisters h2, .wordsoflife h2 {
+    font-size: 35px;
+    padding-top: 60px;
+  }
+
+  .Poem1 p, .notdead p, .war p, .brokenheart p,
+  .whatwasmeant p, .unplannedlongings p, .betrayal p,
+  .tearsflowing p, .screams p, .rememberwhen p,
+  .rememberingwhen p, .bettyboop p, .shara p,
+  .sistrelylove p, .sisters p, .wordsoflife p {
+    font-size: 18px;
+    padding: 30px;
+  }
+}
